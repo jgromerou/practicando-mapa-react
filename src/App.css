@@ -1,0 +1,23 @@
+.leaflet-container {
+  width: 100%;
+  height: 84vh;
+}
+h1 {
+  text-align: center;
+}
+.contenedorImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contenedorImg img {
+  /*width: 7rem;*/
+  height: 165px;
+}
+.textoImportante {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.leaflet-default-icon-path {
+  background-image: url(https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png);
+}
